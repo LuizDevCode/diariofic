@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+ 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - SENAI</title>
+ 
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+ 
+    <style>
+        .bg-azul-senai {
+            background-color: #001658; 
+            color: white;
+        }
+
+        .btn-senai {
+            background-color: #001658;
+            color: white;
+            border-radius: 5px;
+            padding: 10px 30px;
+        }
+        .btn-senai:hover {
+            background-color: #000e35;
+            color: white;
+        }
+
+        .input-custom {
+            background-color: #F3F5F9;
+            border: none;
+            border-radius: 8px;
+            padding: 15px;
+        }
+        
+        .logo-senai {
+            background-color: red;
+            color: white;
+            font-weight: 900;
+            font-style: italic;
+            display: inline-block;
+            padding: 5px 20px;
+            letter-spacing: 2px;
+            margin-bottom: 20px;
+        }
+
+        .img-rango {
+            max-width: 80%;     
+            max-height: 50vh;    
+            object-fit: contain; 
+            border-radius: 4px;  
+        }
+    </style>
+ 
+</head>
+ 
+<body>
+ 
+    <header class="container-fluid p-0">
+        <div class="row min-vh-100 g-0">
+
+            <div class="d-none d-lg-flex col-lg-5 bg-azul-senai flex-column align-items-center justify-content-center text-center p-5">
+                
+                <div>
+                    <h1 class="logo-senai display-6">SENAI</h1>
+                </div>
+
+                <h3 class="mt-3 mb-4 fw-bold">DIÁRIO FIC</h3>
+
+                <div class="mt-2">
+                     <img src="imagens/rango.png" alt="Procurado Rango" class="img-rango shadow-lg">
+                </div>
+
+            </div>
+
+            <div class="col-12 col-lg-7 bg-white d-flex align-items-center justify-content-center">
+                
+                <div class="container" style="max-width: 450px;">
+                    <div class="row justify-content-center">
+                        <div class="col-12">
+ 
+                            <h2 class="fw-bold mb-5">Entrar</h2>
+ 
+                            <div class="mb-4">
+                                <label class="fw-bold mb-2">NIF</label>
+                                <input class="d-block w-100 input-custom" type="text">
+                            </div>
+
+                            <div class="mb-5">
+                                <label class="fw-bold mb-2">Senha</label>
+                                <input class="d-block w-100 input-custom" type="password">
+                            </div>
+ 
+                            <div>
+                                <a class="btn btn-senai fw-bold" href="#">Entrar</a>
+                            </div>
+ 
+                        </div>
+                    </div>
+                </div>
+ 
+            </div>
+ 
+        </div>
+ 
+    </header>
+ 
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+ 
+</html>
